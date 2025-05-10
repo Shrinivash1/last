@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Sign In</h2>
+    <form action="player.html">
+      <input
+        type="text"
+        name="username"
+        placeholder="Username"
+        pattern="^[a-zA-Z0-9]{4,12}$"
+        required
+      />
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        minlength="8"
+        required
+      />
+      <div class="forgot-password">
+            <a href="forgot-password.html">Forgot Password?</a>
+      </div>
+
+      <button type="submit">Login</button>
+      <div class="links">
+        Don't have an account?<a href="register.html"> Create one</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
 
