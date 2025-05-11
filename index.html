@@ -24,8 +24,10 @@
     .container {
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: stretch;
       width: 100%;
+      max-width: 900px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     }
 
     .login-section {
@@ -141,6 +143,36 @@
       background-color: #0056b3;
       box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
     }
+    .side-panel {
+      background: linear-gradient(to bottom right, #00c9ff, #92fe9d);
+      color: white;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .side-panel h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .side-panel p {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    .sign-up-button {
+      padding: 12px 30px;
+      background: white;
+      color: black;
+      border: none;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -173,6 +205,11 @@
         </div>
         <button type="submit">Login</button>
       </form>
+    </div>
+    <div class="side-panel">
+      <h2>New Here?</h2>
+      <p>Sign up and discover a great amount of new opportunities!</p>
+      <button class="sign-up-button">Sign Up</button>
     </div>
   </div>
 </body>
