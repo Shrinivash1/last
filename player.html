@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <style>
+           @font-face {
+          font-family: 'EeyekAkaba';
+        src: url('./EeyekAkaba.ttf') format('truetype');
+        }
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #121212;
+            background-image: url(./Image/Musicbg.png);
             color: white;
         }
         .navbar {
@@ -37,7 +41,7 @@
             row-gap: 140px;
         }
         .card {
-            background-color: #181818;
+            background-color:rgba(0, 0, 0, 0.511);
             margin: 20px;
             border-radius: 10px;
             width: 20%;
@@ -61,6 +65,18 @@
             cursor: pointer;
             border-radius:50px;
         }
+        footer {
+        background-color: #1db954;
+        color: white;
+        text-align: center;
+        padding: 20px 10px;
+        font-size: 25px;
+        font-family:'EeyekAkaba' ;
+      }
+      .english {
+        font-family: Arial, sans-serif;
+      }
+      
     </style>
 </head>
 <body>
@@ -102,5 +118,17 @@
             </form>
         </div>
     </div>
+    <footer>
+    <div class="english">
+        <p>Designed by: Puyam Shrinivash Singh</p>
+        <p>BCA, 2nd Year (4th Semester)<br>
+            Roll no:BC2094<br>NIELIT, IMPHAL</p>
+    </div>
+    <hr width="50%" align="center" color="gray" size="3px"><br>
+    <p>seM sab: PuyaM Shrinivash siHh</p>
+    <p>bi.si.Ae, 4 sub semist_r<br>
+        roL nMb_r :-bi.si. 2094<br>
+        niliY, IMfaL</p>
+  </footer>
 </body>
 </html>
